@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
 
 body{
+  margin: 30px;
+  margin-bottom: 10px;
   background: #5783B7;
   color: #000;
   font-family: 'Roboto Condensed', sans-serif;
@@ -11,18 +15,33 @@ img{
 }
 
 p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
   font-size: 17pt;
   text-align: center;
 }
 
+//IDs
 #slogan{
   font-size: 24pt;
+  line-height: 1.5em;
   text-align: center;
 }
 
 #footer{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.0em;
   font-size: 11pt;
 }
+
+
+//classes
+.logo{
+  height: 50px;
+  width: auto;
+
+}
+
 .navbar-brand{
   float: left;
   height: 50px;
