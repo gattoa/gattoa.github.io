@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+
+header{
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav{
+  width: 44px;
+  height: 44px;
+  background-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section{
+  background-color: #E89C6C;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+footer{
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+body{
+  margin: 30px;
+  margin-bottom: 10px;
+  background: #5783B7;
+  color: #000;
+}
+
+img{
+  width: auto;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  font-size: 15pt;
+  text-align: left;
+}
+
+//IDs
+#hamburger{
+  display:inline-block;
+  align-content: center;
+}
+
+#slogan{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24pt;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#footer{
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  line-height: 1.0em;
+  text-align: center;
+}
+
+
+//classes
+.wrapper{
+  width: 375px;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  align-content: left;
+}
