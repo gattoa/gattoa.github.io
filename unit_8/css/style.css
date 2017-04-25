@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+
+header{
+  padding: 1em;
+}
+
+body{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #5783B7;
+}
+
+footer{
+  padding: 1.5em;
+}
+
+img{
+  width: 100%;
+}
+
+nav{
+  float: right;
+  width: 44px;
+  height: 44px;
+  padding: .5em;
+}
+
+hr {
+  width: auto;
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+}
+
+section{
+  padding: 2em;
+}
+
+button{
+  width: 100%;
+  text-align: center;
+  border-radius: .5em;
+  background-color: 000;
+}
+
+
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
+  text-align: left;
+}
+
+a:link {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+//IDs
+#hamburger{
+  display:inline-block;
+  align-content: center;
+}
+
+#image {
+  margin: none;
+}
+
+#slogan {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24pt;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#newaccount {
+  background-color: white;
+}
+
+#footer{
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  color: #fff;
+  line-height: 1em;
+  text-align: center;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+//classes
+.wrapper{
+  width: 375px;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  align-content: left;
+}
+
+.welcome {
+  color: #fff;
+}
+
+.buttona {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, .10);
+  padding: .5em;
+  border: .1em white solid;
+}
+
+.buttonb {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  background-color: #1E69B2;
+  padding: .5em;
+  border-style: none;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel- ratio: 3){}
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel- ratio: 3){}
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel- ratio: 3){}
+@media screen and (device-width: 768px) and (device- height: 1024px) and (-webkit-device-pixel-ratio: 1){}
+@media screen and (device-width: 768px) and (device- height: 1024px) and (-webkit-device-pixel-ratio: 2){}
+@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel- ratio: 2){}
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){}
